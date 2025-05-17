@@ -1,0 +1,15 @@
+[package]
+name = "api_gateway"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = "0.7"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+validator = "0.16"
+jsonwebtoken = "9"
+once_cell = "1.19"
+dashmap = "5"
+hyper = "1"
+chrono = "0.4.41"
